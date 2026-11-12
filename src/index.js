@@ -1,1 +1,1 @@
-alert("anan");
+import "./style.css";
