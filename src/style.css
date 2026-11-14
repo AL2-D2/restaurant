@@ -82,12 +82,13 @@ p {
     display: flex;
     flex-direction: column;
     align-self: center;
-    border-radius: 20px;
+    border-radius: 7px;
     background-color: #fff;
     min-width: max(40%, 550px);
     height: max(75vh, 450px);
     padding: 35px;
     gap: 55px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.373);
 }
 
 .food-elements {
