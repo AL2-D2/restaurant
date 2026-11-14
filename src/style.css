@@ -83,7 +83,7 @@ p {
     flex-direction: column;
     align-self: center;
     border-radius: 7px;
-    background-color: #fff;
+    background-color: #f0ececab;
     min-width: max(40%, 550px);
     height: max(75vh, 450px);
     padding: 35px;
