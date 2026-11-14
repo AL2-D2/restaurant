@@ -11,9 +11,7 @@ export function loadHomePage() {
 
     const image = document.createElement("img");
     image.src = restaurantBackground;
-    image.width = "500";
-    image.height = "350";
-    image.style = "border-radius: 15px;";
+    
 
     const firstParagraph = document.createElement("p");
     firstParagraph.innerText = "Enjoy delicious, freshly prepared Praesent Maximus food in a warm and welcoming atmosphere.";

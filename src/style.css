@@ -78,7 +78,14 @@ p {
     border-radius: 20px;
     box-shadow: 1px 1px 10px #dac6dac9;
     background-color: var(--light-background);
-    ;
+}
+
+.homepage-active img {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    border: 10px solid #dac6dac9;
+    box-shadow: 1px 1px 8px rgb(158, 116, 116);
 }
 
 .text-container p {
