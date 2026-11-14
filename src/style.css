@@ -24,7 +24,8 @@ header {
     grid-template-columns: 1fr 2fr 1fr;
     border-bottom: 2px solid black;
     margin-bottom: 15px;
-    background-color: var(--light-background);;
+    background-color: var(--light-background);
+    ;
 }
 
 .ipsum-logo {
@@ -72,11 +73,16 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     min-width: max(40%, 550px);
     border-radius: 20px;
     box-shadow: 1px 1px 10px #dac6dac9;
-    background-color: var(--light-background);;
+    background-color: var(--light-background);
+    ;
+}
+
+.text-container p {
+    font-size: 1.4rem;
 }
 
 .text-container {
@@ -94,7 +100,8 @@ p {
     flex-direction: column;
     align-self: center;
     border-radius: 7px;
-    background-color: var(--light-background);;
+    background-color: var(--light-background);
+    ;
     min-width: max(40%, 550px);
     height: max(75vh, 450px);
     padding: 35px;
@@ -113,7 +120,7 @@ p {
     align-self: flex-end;
     text-transform: uppercase;
     letter-spacing: 15px;
-    text-shadow: 1px 3px 2px rgb(164, 163, 163);        
+    text-shadow: 1px 3px 2px rgb(164, 163, 163);
 }
 
 .food-type-title {
