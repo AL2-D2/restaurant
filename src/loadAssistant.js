@@ -10,5 +10,6 @@ function deleteChildElementsFrom(element) {
 export function loadEmptyContentDiv() {
     const contentDiv = getContentDiv();
     deleteChildElementsFrom(contentDiv);
+    contentDiv.className = "";
     return contentDiv;
 }

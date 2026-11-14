@@ -4,6 +4,8 @@ import { loadEmptyContentDiv } from "./loadAssistant.js";
 export function loadHomePage() {
     const contentDiv = loadEmptyContentDiv();
 
+    contentDiv.classList.add("homepage-active");
+
     const h1 = document.createElement("h1");
     h1.innerText = "Welcome to Lorem Ipsum Restaurant";
 

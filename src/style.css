@@ -48,7 +48,7 @@ button:hover {
     cursor: pointer;
 }
 
-#content {
+.homepage-active {
     align-self: center;
     min-height: max(85vh, 550px);
     display: flex;
