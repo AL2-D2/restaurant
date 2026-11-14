@@ -1,6 +1,7 @@
 import { loadEmptyContentDiv } from "./loadAssistant.js";
 export function loadContactPage() {
     const contentDiv = loadEmptyContentDiv();
+    contentDiv.classList.add("contactpage-active");
 
     const managerTitle = document.createElement("h3");
     managerTitle.textContent = "Manager";
@@ -17,7 +18,9 @@ export function loadContactPage() {
     chefMail.textContent = "donec_tempus@gmail.com";
 
     const managerDiv = document.createElement("div");
+    managerDiv.classList.add("contact-container");
     const chefDiv = document.createElement("div");
+    chefDiv.classList.add("contact-container");
 
     managerDiv.append(managerTitle, managerNumber, managerMail);
     chefDiv.append(chefTitle, chefNumber, chefMail);
