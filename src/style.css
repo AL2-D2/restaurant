@@ -79,10 +79,19 @@ button:hover {
 /* MENU STYLINGS */
 
 .menu-active {
+    display: flex;
+    flex-direction: column;
     align-self: center;
     border-radius: 20px;
     background-color: #fff;
     min-width: max(40%, 550px);
-    min-height: max(75vh, 450px);
+    height: max(75vh, 450px);
     padding: 35px;
+}
+
+.food-elements {
+    min-height: max(80%, 400px);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }

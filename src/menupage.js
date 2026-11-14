@@ -21,14 +21,19 @@ export function loadMenuPage() {
     const praesentP = document.createElement("p");
     praesentP.textContent = "Praesent Commodo - iaculis neque quis aliquam.";
 
+    const foodElementsContainer = document.createElement("div");
+    foodElementsContainer.classList.add("food-elements");
+
     for (let i = 0; i < 3; i++) {
         const div = document.createElement("div");
         div.className = "food-type";
-        contentDiv.append(div);
+        foodElementsContainer.append(div);
     }
 
-    const divs = contentDiv.querySelectorAll(".food-type");
+    const divs = foodElementsContainer.querySelectorAll(".food-type");
     divs[0].append(foodTypePasta, dolorP);
     divs[1].append(foodTypePizza, suspendisseP);
     divs[2].append(foodTypeDessert, praesentP);
+
+    contentDiv.append(foodElementsContainer);
 }
