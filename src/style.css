@@ -98,13 +98,19 @@ p {
     gap: 35px;
 }
 
-.menu-title{
+.menu-title {
     align-self: flex-end;
 }
 
-.food-type-title{
+.food-type-title {
     margin-bottom: 10px;
     text-decoration: underline;
     letter-spacing: 7px;
     text-transform: uppercase;
+}
+
+.food-type {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
