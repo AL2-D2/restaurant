@@ -101,3 +101,10 @@ p {
 .menu-title{
     align-self: flex-end;
 }
+
+.food-type-title{
+    margin-bottom: 10px;
+    text-decoration: underline;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}

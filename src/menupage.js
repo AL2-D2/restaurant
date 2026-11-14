@@ -1,4 +1,6 @@
 import { loadEmptyContentDiv } from "./loadAssistant.js";
+import { createParagraph } from "./paragraphCreatorAssistant.js";
+
 export function loadMenuPage() {
     const contentDiv = loadEmptyContentDiv();
 
@@ -11,16 +13,21 @@ export function loadMenuPage() {
 
     const foodTypePasta = document.createElement("h2");
     foodTypePasta.textContent = "Pasta";
-    const dolorP = document.createElement("p");
-    dolorP.textContent = "Dolor Rhoncus Et - Donec ullamcorper fermentum diam vel maximus.";    
+    foodTypePasta.classList.add("food-type-title");
+    const dolorP = createParagraph("Dolor Rhoncus Et");
+    const arcuP = createParagraph("Arcu a Tincidunt");
+
     const foodTypePizza = document.createElement("h2");
     foodTypePizza.textContent = "Pizza";
-    const suspendisseP = document.createElement("p");
-    suspendisseP.textContent = "Suspendisse Pretium - Arcu a tincidunt posuere, vivamus dignissim, eros a fermentum accumsan."
+    foodTypePizza.classList.add("food-type-title");
+    const suspendisseP = createParagraph("Suspendisse Pretium");
+    const erosP = createParagraph("Eros a Fermentum");
+
     const foodTypeDessert = document.createElement("h2");
     foodTypeDessert.textContent = "Desserts";
-    const praesentP = document.createElement("p");
-    praesentP.textContent = "Praesent Commodo - iaculis neque quis aliquam.";
+    foodTypeDessert.classList.add("food-type-title");
+    const praesentP = createParagraph("Praesent Commodo");
+    const donecP = createParagraph("Donec Ullamcorper");
 
     const foodElementsContainer = document.createElement("div");
     foodElementsContainer.classList.add("food-elements");
@@ -32,9 +39,9 @@ export function loadMenuPage() {
     }
 
     const divs = foodElementsContainer.querySelectorAll(".food-type");
-    divs[0].append(foodTypePasta, dolorP);
-    divs[1].append(foodTypePizza, suspendisseP);
-    divs[2].append(foodTypeDessert, praesentP);
+    divs[0].append(foodTypePasta, dolorP, arcuP);
+    divs[1].append(foodTypePizza, suspendisseP, erosP);
+    divs[2].append(foodTypeDessert, praesentP, donecP);
 
     contentDiv.append(foodElementsContainer);
 }
