@@ -61,3 +61,11 @@ button:hover {
     border-radius: 20px;
     box-shadow: 1px 1px 10px #d4a0d4c9;
 }
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
