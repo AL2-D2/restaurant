@@ -60,6 +60,7 @@ button:hover {
     min-width: max(40%, 550px);
     border-radius: 20px;
     box-shadow: 1px 1px 10px #d4a0d4c9;
+    background-color: #fffaffba;
 }
 
 .text-container {
