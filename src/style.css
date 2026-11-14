@@ -13,11 +13,6 @@ body {
 
 }
 
-#content {
-    align-self: center;
-    min-height: max(85vh, 550px);
-}
-
 header {
     min-height: max(10vh, 85px);
     display: grid;
@@ -47,4 +42,14 @@ nav button {
 
 button:hover{
     cursor:pointer;
+}
+
+#content {
+    align-self: center;
+    min-height: max(85vh, 550px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    gap: 15px;          
 }
