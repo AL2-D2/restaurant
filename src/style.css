@@ -48,6 +48,10 @@ button:hover {
     cursor: pointer;
 }
 
+p {
+    font-size: 1.1rem;
+}
+
 /* HOMEPAGE STYLINGS */
 
 .homepage-active {
@@ -72,10 +76,6 @@ button:hover {
     align-items: center;
 }
 
-.text-container p {
-    font-size: 1.1rem;
-}
-
 /* MENU STYLINGS */
 
 .menu-active {
@@ -87,6 +87,7 @@ button:hover {
     min-width: max(40%, 550px);
     height: max(75vh, 450px);
     padding: 35px;
+    gap: 55px;
 }
 
 .food-elements {
@@ -94,4 +95,8 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 35px;
+}
+
+.menu-title{
+    align-self: flex-end;
 }

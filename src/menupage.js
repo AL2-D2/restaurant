@@ -6,12 +6,13 @@ export function loadMenuPage() {
 
     const title = document.createElement("h1");
     title.textContent = "Menu";
+    title.classList.add("menu-title");
     contentDiv.append(title);
 
     const foodTypePasta = document.createElement("h2");
     foodTypePasta.textContent = "Pasta";
     const dolorP = document.createElement("p");
-    dolorP.textContent = "Dolor Rhoncus Et - Donec ullamcorper fermentum diam vel maximus.";
+    dolorP.textContent = "Dolor Rhoncus Et - Donec ullamcorper fermentum diam vel maximus.";    
     const foodTypePizza = document.createElement("h2");
     foodTypePizza.textContent = "Pizza";
     const suspendisseP = document.createElement("p");
