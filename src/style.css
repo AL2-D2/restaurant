@@ -19,10 +19,10 @@ body {
 }
 
 header {
-    min-height: max(10vh, 85px);
+    min-height: max(10vh, 85px);    
 }
 
 .ipsum-logo {
     width: min(170px, 15%);
-    height: auto;
+    max-height: 40px;    
 }
