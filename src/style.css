@@ -21,6 +21,10 @@ header {
     min-height: max(10vh, 85px);
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+    background-color: #fffaffba;
+    ;
 }
 
 .ipsum-logo {
