@@ -44,3 +44,7 @@ nav button {
     border-radius: 15px;
     border: 1px solid #dfdfdfa4;
 }
+
+button:hover{
+    cursor:pointer;
+}
