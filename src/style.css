@@ -40,8 +40,8 @@ nav button {
     border: 1px solid #dfdfdfa4;
 }
 
-button:hover{
-    cursor:pointer;
+button:hover {
+    cursor: pointer;
 }
 
 #content {
@@ -49,7 +49,11 @@ button:hover{
     min-height: max(85vh, 550px);
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
     justify-content: center;
-    gap: 15px;          
+    gap: 15px;
+    background-color: #fff;
+    min-width: max(40%, 550px);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #d4a0d4c9;
 }
