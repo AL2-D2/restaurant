@@ -19,21 +19,28 @@ body {
 }
 
 header {
-    min-height: max(10vh, 85px); 
-    display: grid;   
+    min-height: max(10vh, 85px);
+    display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
 
 .ipsum-logo {
     width: max(170px, 15%);
     max-height: 40px;
-    align-self: center;    
+    align-self: center;
     margin-left: 35px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     gap: 55px;
+}
+
+nav button {
+    width: max(10%, 70px);
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #dfdfdfa4;
 }
