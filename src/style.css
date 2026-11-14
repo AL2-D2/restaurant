@@ -48,6 +48,8 @@ button:hover {
     cursor: pointer;
 }
 
+/* HOMEPAGE STYLINGS */
+
 .homepage-active {
     align-self: center;
     min-height: max(85vh, 550px);
@@ -56,7 +58,6 @@ button:hover {
     align-items: center;
     justify-content: space-evenly;
     gap: 15px;
-    background-color: #fff;
     min-width: max(40%, 550px);
     border-radius: 20px;
     box-shadow: 1px 1px 10px #d4a0d4c9;
@@ -71,6 +72,17 @@ button:hover {
     align-items: center;
 }
 
-.text-container p{
-    font-size: 1.1rem;    
+.text-container p {
+    font-size: 1.1rem;
+}
+
+/* MENU STYLINGS */
+
+.menu-active {
+    align-self: center;
+    border-radius: 20px;
+    background-color: #fff;
+    min-width: max(40%, 550px);
+    min-height: max(75vh, 450px);
+    padding: 35px;
 }

@@ -2,6 +2,8 @@ import { loadEmptyContentDiv } from "./loadAssistant.js";
 export function loadMenuPage() {
     const contentDiv = loadEmptyContentDiv();
 
+    contentDiv.classList.add("menu-active");
+
     const title = document.createElement("h1");
     title.textContent = "Menu";
     contentDiv.append(title);
