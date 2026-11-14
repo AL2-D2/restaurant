@@ -19,5 +19,9 @@ export function loadHomePage() {
     const secondParagraph = document.createElement("p");
     secondParagraph.innerText = "Come hungry, leave happy!";
 
-    contentDiv.append(h1, image, firstParagraph, secondParagraph);
+    const paragraphContainer = document.createElement("div");
+    paragraphContainer.append(firstParagraph, secondParagraph);
+    paragraphContainer.classList.add("text-container");
+
+    contentDiv.append(h1, image, paragraphContainer);
 }
