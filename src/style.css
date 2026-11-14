@@ -24,7 +24,6 @@ header {
     border-bottom: 2px solid black;
     margin-bottom: 15px;
     background-color: #fffaffba;
-    ;
 }
 
 .ipsum-logo {
@@ -76,7 +75,7 @@ p {
     gap: 15px;
     min-width: max(40%, 550px);
     border-radius: 20px;
-    box-shadow: 1px 1px 10px #d4a0d4c9;
+    box-shadow: 1px 1px 10px #dac6dac9;
     background-color: #fffaffba;
 }
 
